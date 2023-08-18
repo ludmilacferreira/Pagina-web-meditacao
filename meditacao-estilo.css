@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background-color: #203D63;
 	font-family: 'Open Sans', 'Poppins', sans-serif;
@@ -5,6 +10,7 @@ body {
 
 .trilha {
 	position: relative;
+	padding: 10px; /* modificar */
 }
 
 .trilha-titulo {
@@ -12,78 +18,80 @@ body {
 	text-align: center;
 }
 
-.circle-container {
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 .circulo {
 	background-color: #34629F;
 	width: 200px;
 	height: 200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.circulo, .circulo2, .circulo3 {
 	border-radius: 50%;
 }
+
 .circulo2 {
 	background-color: #549EFF;
 	width: 100px;
 	height: 100px;
-	border-radius: 50%;
-	position: relative;
-  	transform: translate(50%, 50%);
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
 .circulo3 {
 	background-color: #A0C8FF;
 	width: 50px;
 	height: 50px;
-	border-radius: 50%;
-	position: relative;
-	transform: translate(50%, 50%);
+	margin: 0 auto;
 }
 
 .trilha-subtitulo {
 	color: #FFFFFF;
 	text-align: center;
+	padding: 10px; /* modificar */
 }
 
 .controles {
-	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 150px; /* modificar*/
+	margin: 0 auto;
 }
+
+.controles i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
 .fa-solid {
 	background-color: #34629F;
 	border-radius: 50%;
 }
+
 .fa-square {
 	width: 30px;
 	height: 30px;
 	color: #203D63;
-	transform: translate(0%, 25%);
-	margin-right: 2%;
 }
-.fa-solid.fa-square::before{
-	position: relative;
-	left: 25%;
-	top: 25%;
-}
-.fa-music{
-	width: 30px;
-	height: 30px;
-	color: #203D63;
-	transform: translate(0%, 25%);
-	margin: 2%;
-}
-.fa-solid.fa-music::before{
-	position: relative;
-	left: 20%;
-	top: 25%;
-}
-.fa-play{
+
+.fa-play {
 	width: 45px;
 	height: 45px;
 	color: #203D63;
 }
-.fa-solid.fa-play::before{
-	position: relative;
-	left: 38%;
-	top: 35%;
+
+.fa-play::before {
+	margin-left: 2px;
+}
+
+.fa-music {
+	width: 30px;
+	height: 30px;
+	color: #203D63;
 }
