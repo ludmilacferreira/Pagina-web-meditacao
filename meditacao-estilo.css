@@ -16,6 +16,7 @@ body {
 .trilha-titulo {
 	color: #549EFF;
 	text-align: center;
+	margin-top: 100px;
 }
 
 .circulo {
@@ -26,6 +27,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-top: 40px;
 }
 
 .circulo, .circulo2, .circulo3 {
@@ -52,7 +54,18 @@ body {
 .trilha-subtitulo {
 	color: #FFFFFF;
 	text-align: center;
-	padding: 10px; /* modificar */
+	padding: 40px; /* modificar */
+}
+
+.linha {
+	background-color: #34629F;
+	height: 2px;
+	width: 100%;
+	margin-bottom: 2%;
+}
+.acima{
+	background-color: #549EFF;
+	width: 70%;
 }
 
 .controles {
@@ -61,6 +74,7 @@ body {
 	justify-content: space-between;
 	width: 150px; /* modificar*/
 	margin: 0 auto;
+	padding: 10px;
 }
 
 .controles i {
