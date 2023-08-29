@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all__squares{
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 3%;
+}
+
+.square {
+	width: 20%;
+	height: 100px;
+	background-color: #549EFF;
+	border-radius: 5px;
+}
+
+.square__text{
+	text-align: center;
+	color: #FFFF;
+}
+
+.fa-solid, .fa-regular{
+	color: #FFFF;
+}

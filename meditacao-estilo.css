@@ -13,7 +13,7 @@ body {
 	padding: 10px; /* modificar */
 }
 
-.trilha-titulo {
+.trilha__titulo {
 	color: #549EFF;
 	text-align: center;
 	margin-top: 100px;
@@ -51,7 +51,7 @@ body {
 	margin: 0 auto;
 }
 
-.trilha-subtitulo {
+.trilha__subtitulo {
 	color: #FFFFFF;
 	text-align: center;
 	padding: 40px; /* modificar */
